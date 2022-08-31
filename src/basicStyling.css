@@ -1,0 +1,142 @@
+/* Fonts Imports */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Close  */
+
+
+
+body {
+    background-image: url("/asset/discordImage.gif");
+    background-color: lightblue;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    background-origin: padding-box;
+   }
+
+/* Header Styling Yo Yo  */
+
+#heading{
+    color: rgb(18, 199, 124);
+    font-family: 'Secular One', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+    padding-right: 40px;
+    text-shadow: rgba(246, 247, 246, 0.24) 2px 2px 5px;
+}
+
+
+#main p{
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-family: Play ,sans-serif;
+}
+
+#main p span:hover{
+    color: rgb(85, 138, 207);
+    border-bottom: 1px solid red;
+    cursor: pointer;
+
+}
+
+#des p{
+    color: rgb(69, 162, 216);
+    font-family: Play,serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#des{
+    text-align: center;
+}
+
+
+
+
+#headimg{
+    height: 130px;
+    width: auto;
+    border-radius: 100px;
+}
+#headimg:hover{
+    border-bottom: 2px solid rgba(173, 76, 76, 0.555);
+    cursor: none;
+
+}
+
+.bot_info{
+    text-align: center;
+}
+
+.bot_info p a{
+    background-color: rgba(44, 48, 48, 0.774);
+    padding: 2px 3px;
+    font-size: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Righteous,serif;
+    margin: 3px 5px;
+    border-bottom: 2px solid rgb(34, 230, 34);
+    color: rgb(232, 234, 241);
+}
+
+.bot_info p a:hover{
+    border-bottom: 2px solid rgb(61, 52, 185);
+    color: rgb(66, 161, 82);
+}
+
+
+.more{
+    padding-top: 20px;
+    color: rgb(255, 255, 255);
+}
+.bots{
+    height:100px;
+}
+
+.bots_card span{
+    color: azure;
+}
+.bots_card img{
+    border: 2px solid rgb(61, 67, 73);
+    border-radius: 10px;
+}
+
+.foot{
+    text-align: center;
+    align-content: stretch;
+    font-family: Sora,serif;
+    color: lightslategrey;
+    background-color: rgba(85, 67, 39, 0.151);
+    border-top: 2px dashed black;
+}
+.foot span a{
+    color: rgb(204, 205, 209);
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.foot span:hover{
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.6px;
+}
+#morein{
+    color: rgb(160, 92, 36);
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+
+
+
+
+
